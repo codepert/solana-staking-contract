@@ -1,0 +1,15 @@
+[programs.devnet]
+staking_program = "FbaMJWS14yAPH68LwFAHxaBSukgBHnAY9VaEfhFxWerb"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+
+#cluster = "devnet"
+cluster = "http://127.0.0.1:8899"
+#wallet = "/home/gitpod/.config/solana/id.json"
+wallet = "./test-keypair.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
