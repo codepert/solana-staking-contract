@@ -1,1 +1,1 @@
-# solana-staking-contract
+# solana staking contract
